@@ -9,6 +9,7 @@ import musicLibrary
 
 # Download tokenizer once
 nltk.download('punkt')
+nltk.download('punkt_tab')
 
 # Initialize recognizer and voice engine
 recognizer = sr.Recognizer()
